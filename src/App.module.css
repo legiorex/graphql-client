@@ -1,0 +1,29 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+li {
+  display: grid;
+  grid-template-columns: 1fr 1fr 30px 115px;
+  gap: 5px;
+  align-items: center;
+}
